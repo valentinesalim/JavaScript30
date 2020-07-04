@@ -1,7 +1,8 @@
 html {
   font-size: 10px;
-  background: url(https://i.imgur.com/b9r5sEL.jpg) bottom center;
+  background: url(https://res.cloudinary.com/valentinesalim/image/upload/v1593841135/background1_zwish7.jpg) no-repeat fixed center;;
   background-size: cover;
+  
 }
 
 body,html {
@@ -11,31 +12,32 @@ body,html {
 }
 
 .keys {
+  grid-template-columns: auto auto auto auto auto auto auto auto auto;
+  padding: 5px;
   display: flex;
-  flex: 1;
-  min-height: 100vh;
-  align-items: center;
   justify-content: center;
+  align-items: center;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
 }
 
 .key {
-  border: .4rem solid black;
   border-radius: .5rem;
-  margin: 1rem;
   font-size: 1.5rem;
-  padding: 1rem .5rem;
   transition: all .07s ease;
   width: 10rem;
   text-align: center;
-  color: white;
-  background: rgba(0,0,0,0.4);
-  text-shadow: 0 0 .5rem black;
+  color: #2B3849;
+  background: white;
+  margin: 10px;
+  box-shadow: 0 0 10px white;
 }
 
 .playing {
   transform: scale(1.1);
-  border-color: #ffc600;
-  box-shadow: 0 0 1rem #ffc600;
+  border-color: #ffffff;
+  box-shadow: 0 0 2rem #83fcff;
 }
 
 kbd {
@@ -47,5 +49,5 @@ kbd {
   font-size: 1.2rem;
   text-transform: uppercase;
   letter-spacing: .1rem;
-  color: #ffc600;
+  color: #2B3849;
 }
